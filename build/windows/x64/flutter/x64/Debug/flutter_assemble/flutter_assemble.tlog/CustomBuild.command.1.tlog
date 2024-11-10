@@ -1,0 +1,28 @@
+^C:\USERS\USUARIO\DOWNLOADS\TAREA1_ALEJANDRO\BUILD\WINDOWS\X64\CMAKEFILES\1BBC120B9E9DB6C6A9C6A18CCD05C7A2\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Usuario\Downloads\flutter PROJECT_DIR=C:\Users\Usuario\Downloads\tarea1_alejandro FLUTTER_ROOT=C:\Users\Usuario\Downloads\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\Usuario\Downloads\tarea1_alejandro\windows\flutter\ephemeral PROJECT_DIR=C:\Users\Usuario\Downloads\tarea1_alejandro FLUTTER_TARGET=C:\Users\Usuario\Downloads\tarea1_alejandro\lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\Usuario\Downloads\tarea1_alejandro\.dart_tool\package_config.json C:/Users/Usuario/Downloads/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOWNLOADS\TAREA1_ALEJANDRO\BUILD\WINDOWS\X64\CMAKEFILES\FABAF43601BD06F78D3553739D8B22B3\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USUARIO\DOWNLOADS\TAREA1_ALEJANDRO\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Usuario/Downloads/tarea1_alejandro/windows -BC:/Users/Usuario/Downloads/tarea1_alejandro/build/windows/x64 --check-stamp-file C:/Users/Usuario/Downloads/tarea1_alejandro/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
