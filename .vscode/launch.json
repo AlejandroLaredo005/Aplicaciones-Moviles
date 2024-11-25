@@ -8,21 +8,21 @@
             "name": "tarea1_alejandro",
             "request": "launch",
             "type": "dart",
-            "program": "lib/home_screen.dart"
+            "program": "lib/main.dart"
         },
         {
             "name": "tarea1_alejandro (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
-            "program": "lib/home_screen.dart"
+            "program": "lib/main.dart"
         },
         {
             "name": "tarea1_alejandro (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",
-            "program": "lib/home_screen.dart"
+            "program": "lib/main.dart"
         }
     ]
 }

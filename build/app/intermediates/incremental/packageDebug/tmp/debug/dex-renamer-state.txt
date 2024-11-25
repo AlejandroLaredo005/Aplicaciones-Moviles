@@ -1,4 +1,4 @@
-#Wed Nov 06 12:43:36 CET 2024
+#Mon Nov 25 13:09:12 CET 2024
 base.0=C\:\\Users\\Usuario\\Downloads\\tarea1_alejandro\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\Usuario\\Downloads\\tarea1_alejandro\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\Usuario\\Downloads\\tarea1_alejandro\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex

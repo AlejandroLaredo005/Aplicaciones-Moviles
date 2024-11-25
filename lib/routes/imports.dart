@@ -1,0 +1,16 @@
+export 'package:flutter/material.dart';
+export 'package:tarea1_alejandro/screens/home_screen.dart';
+export 'package:tarea1_alejandro/screens/contador.dart';
+export 'package:tarea1_alejandro/screens/enlace_fotos_columna.dart';
+export 'package:tarea1_alejandro/screens/enlace_fotos_fila.dart';
+export 'package:tarea1_alejandro/screens/filas_anidadas.dart';
+export 'package:tarea1_alejandro/screens/helicoptero.dart';
+export 'package:tarea1_alejandro/screens/iconos_pantalla.dart';
+export 'package:tarea1_alejandro/screens/instagram.dart';
+export 'package:tarea1_alejandro/screens/juego_imagenes.dart';
+export 'package:tarea1_alejandro/screens/menu_lateral.dart';
+export 'package:tarea1_alejandro/themes/themes.dart';
+export 'package:tarea1_alejandro/routes/app_routes.dart';
+export 'package:tarea1_alejandro/widgets/barra_navegacion.dart';
+export 'package:tarea1_alejandro/widgets/destacadas.dart';
+export 'package:tarea1_alejandro/widgets/perfil.dart';

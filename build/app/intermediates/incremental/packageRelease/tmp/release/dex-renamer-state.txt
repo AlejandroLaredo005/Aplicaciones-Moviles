@@ -1,4 +1,4 @@
-#Sun Nov 10 22:10:57 CET 2024
+#Mon Nov 25 13:25:26 CET 2024
 base.0=C\:\\Users\\Usuario\\Downloads\\tarea1_alejandro\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

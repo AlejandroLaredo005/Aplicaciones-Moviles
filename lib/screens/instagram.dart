@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:tarea1_alejandro/widgets/barraNavegacion.dart';
-import 'package:tarea1_alejandro/widgets/destacadas.dart';
-import 'package:tarea1_alejandro/widgets/perfil.dart';
-
-import 'menuLateral.dart';
+import 'package:tarea1_alejandro/routes/imports.dart';
 
 class Instagram extends StatefulWidget {
   const Instagram({super.key});

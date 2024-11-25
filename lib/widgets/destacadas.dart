@@ -13,7 +13,7 @@ class Destacadas extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 242, 227, 227),
+                backgroundColor: const Color.fromARGB(255, 75, 121, 213),
                 padding: const EdgeInsets.symmetric(
                   horizontal: 140.0,
                   vertical: 10.0,
@@ -23,7 +23,7 @@ class Destacadas extends StatelessWidget {
                 'Editar Perfil',
                 style: TextStyle(
                   fontSize: 16,
-                  color: Colors.black,
+                  color: Colors.white,
                 ),
               ),
             ),
