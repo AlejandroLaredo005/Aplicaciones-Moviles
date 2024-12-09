@@ -183,6 +183,24 @@ class MenuLateral extends StatelessWidget {
               },
             ),
           ),
+          Ink(
+            color: currentRoute == '/Formulario'
+                ? const Color.fromARGB(255, 0, 55, 255) // Color cuando es la ruta actual
+                : const Color(0xFFE1F5FE), // Color por defecto
+            child: ListTile(
+              leading: const Icon(Icons.edit, color: Colors.black), // Icono de fotos
+              title: Text(
+                "Formulario",
+                style: currentRoute == '/Formulario'
+                ? const TextStyle(color: Colors.white) // Estilo para la ruta actual
+                : const TextStyle(color: Colors.black), // Estilo por defecto
+              ),
+              onTap: () {
+                Navigator.of(context).pop();
+                Navigator.of(context).pushNamed('/Formulario');
+              },
+            ),
+          ),
         ],
       ),
     );

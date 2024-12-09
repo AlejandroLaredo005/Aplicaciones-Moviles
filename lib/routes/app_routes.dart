@@ -11,6 +11,7 @@ class AppRoutes {
   static const String contador = '/Contador';
   static const String filasAnidadas = '/FilasAnidadas';
   static const String helicoptero = '/Helicoptero';
+  static const String formularios = '/Formulario';
 
   // Mapa de rutas
   static final Map<String, WidgetBuilder> routes = {
@@ -23,5 +24,6 @@ class AppRoutes {
     contador: (context) => const Contador(),
     filasAnidadas: (context) => const FilasAnidadas(),
     helicoptero: (context) => const Helicoptero(),
+    formularios: (context) => const FormularioScreen(),
   };
 }

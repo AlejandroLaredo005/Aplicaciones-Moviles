@@ -9,6 +9,7 @@ export 'package:tarea1_alejandro/screens/iconos_pantalla.dart';
 export 'package:tarea1_alejandro/screens/instagram.dart';
 export 'package:tarea1_alejandro/screens/juego_imagenes.dart';
 export 'package:tarea1_alejandro/screens/menu_lateral.dart';
+export 'package:tarea1_alejandro/screens/formularios.dart';
 export 'package:tarea1_alejandro/themes/themes.dart';
 export 'package:tarea1_alejandro/routes/app_routes.dart';
 export 'package:tarea1_alejandro/widgets/barra_navegacion.dart';
